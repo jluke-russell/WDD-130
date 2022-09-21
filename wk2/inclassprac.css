@@ -1,0 +1,33 @@
+.coolHeading {
+  color: darkblue;
+  background-color: beige;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.adequateHeading {
+  color: whitesmoke;
+  background-color: purple;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.paraFormat {
+  color: darkolivegreen;
+  background-color: pink;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 5px;
+  border-radius: 10px;
+}
