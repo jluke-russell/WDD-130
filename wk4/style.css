@@ -1,11 +1,35 @@
-.header :hover {
-  color: black;
+.background {
   background-color: #fca6c9;
-}
-.body hero-img {
-  size: 50px;
 }
 
-background {
-  background-color: #fca6c9;
+.header {
+  text-align: center;
+  color: white;
+}
+
+.header-title:hover {
+  color: black;
+}
+.hero {
+  text-align: center;
+}
+
+.hero-img {
+  width: 15%;
+}
+
+.hero-quote {
+  text-align: center;
+  color: white;
+}
+
+.gospel-principle {
+  list-style-position: inside;
+  text-align: left;
+  margin-left: 550px;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
 }
