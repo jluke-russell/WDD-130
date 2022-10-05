@@ -1,0 +1,11 @@
+.header :hover {
+  color: black;
+  background-color: #fca6c9;
+}
+.body hero-img {
+  size: 50px;
+}
+
+background {
+  background-color: #fca6c9;
+}
