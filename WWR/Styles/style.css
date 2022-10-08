@@ -1,0 +1,45 @@
+#content {
+  max-width: 1600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#background {
+  height: 70px;
+}
+
+body {
+  background-color: #38b09d;
+}
+header {
+  background-color: 38b09d;
+}
+nav a:hover {
+  background-color: green;
+}
+nav a:hover {
+  background-color: black;
+  color: #d9c2a3;
+}
+nav a {
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
+}
+
+.logo {
+  width: 370px;
+}
+
+#hero-img {
+  width: 1000px;
+}
+
+.icon {
+  width: 80px;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+  font-size: 1.2em;
+}
