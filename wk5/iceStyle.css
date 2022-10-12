@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top {
+  width: 100%;
+}
+
+.bottom {
+  background-color: grey;
+  width: 86%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.circles {
+  border-radius: 50%;
+  border: 10px solid black;
+  width: 150px;
+  margin: 5%;
+}
+
+.footer {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
