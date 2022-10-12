@@ -6,6 +6,7 @@
 
 .top {
   width: 100%;
+  display: block;
 }
 
 .bottom {
@@ -18,7 +19,7 @@
 .circles {
   border-radius: 50%;
   border: 10px solid black;
-  width: 150px;
+  width: 180px;
   margin: 5%;
 }
 
