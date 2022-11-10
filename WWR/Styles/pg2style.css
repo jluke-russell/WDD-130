@@ -1,4 +1,51 @@
-.resize {
-  width: 600px;
-  height: auto;
+.rivers-grid {
+  display: grid;
+  grid-template-columns: repeat(11, minmax(1fr, 1fr));
+}
+
+.desolation-card {
+  grid-column: 2/4;
+  grid-row: 2;
+  font-size: medium;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 80%;
+}
+
+.salmon-card {
+  grid-column: 5/7;
+  grid-row: 2;
+  font-size: medium;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 80%;
+}
+
+.grand-card {
+  grid-column: 8/10;
+  grid-row: 2;
+  font-size: medium;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 80%;
+}
+
+.river-card-img {
+  border: 10px solid #d9c2a3;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+  width: 100%;
+}
+.msg2 {
+  background-color: #6f7364;
+  padding: 35px;
+  grid-column: 3/9;
+  grid-row: 9;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.waiver {
+  background-color: #d9c2a3;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
