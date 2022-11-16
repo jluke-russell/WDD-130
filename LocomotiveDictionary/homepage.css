@@ -1,0 +1,46 @@
+header {
+  background-color: #5e1914;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a:hover {
+  background-color: green;
+  display: flex;
+  justify-content: space-around;
+}
+nav a:hover {
+  background-color: black;
+  color: #d9c2a3;
+}
+nav a {
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
+  padding: 35px;
+}
+
+footer {
+  background-color: #5e1914;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+  grid-column: 1;
+}
+
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
