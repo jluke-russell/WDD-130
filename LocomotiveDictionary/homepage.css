@@ -1,3 +1,11 @@
+#content {
+  max-width: 1600px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Rock Salt", "Bradley Hand", sans-serif;
+  font-size: 2em;
+}
+
 header {
   background-color: #5e1914;
   display: grid;
@@ -25,6 +33,13 @@ nav a {
   padding: 35px;
 }
 
+footer p a:hover {
+  text-decoration: underline;
+  font-size: 1.2em;
+  padding-top: 15px;
+  padding: 25px 50px;
+}
+
 footer {
   background-color: #5e1914;
   padding: 25px 50px;
@@ -43,4 +58,58 @@ footer {
   padding-top: 5px;
   justify-self: center;
   align-self: center;
+}
+
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: -150px;
+}
+
+#hero-img {
+  width: 100%;
+  height: 100%;
+}
+
+#hero-msg {
+  line-height: 1.5em;
+  color: black;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin-top: 100px;
+  background-color: #5e1914;
+}
+
+#hero-msg h4 {
+  color: black;
+}
+
+#hero-img {
+  width: 100%;
+  height: 100%;
+}
+
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  z-index: -1;
+}
+
+.about {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+h2 {
+  margin: 20;
+}
+
+.video1 {
+  margin-top: 10px;
 }
