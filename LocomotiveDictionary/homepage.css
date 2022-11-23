@@ -24,7 +24,7 @@ nav a:hover {
 }
 nav a:hover {
   background-color: black;
-  color: #d9c2a3;
+  color: white;
 }
 nav a {
   text-align: center;
@@ -38,19 +38,25 @@ footer p a:hover {
   font-size: 1.2em;
   padding-top: 15px;
   padding: 25px 50px;
+  color: white;
 }
 
 footer {
   background-color: #5e1914;
   padding: 25px 50px;
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: white;
+}
+
+main {
+  margin-top: 0px;
 }
 
 .logo {
-  width: 100%;
+  width: 95%;
   grid-column: 1;
 }
 
@@ -73,7 +79,7 @@ footer {
 
 #hero-msg {
   line-height: 1.5em;
-  color: black;
+  color: white;
   grid-column: 2/3;
   grid-row: 2/3;
   margin-top: 100px;
@@ -81,7 +87,7 @@ footer {
 }
 
 #hero-msg h4 {
-  color: black;
+  color: white;
 }
 
 #hero-img {
@@ -90,14 +96,15 @@ footer {
 }
 
 #hero-box {
+  margin-bottom: 100px;
   grid-column: 1/4;
   grid-row: 1/3;
   z-index: -1;
 }
 
 .about {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: black;
   text-decoration: none;
   font-size: 18px;
   padding: 15px 30px;
@@ -106,10 +113,20 @@ footer {
   border-radius: 5px;
 }
 
-h2 {
-  margin: 20;
+.train-types {
+  background-color: #5e1914;
 }
 
-.video1 {
+h2 {
+  margin-top: 35px;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.video {
   margin-top: 10px;
+  padding: 15px;
 }
