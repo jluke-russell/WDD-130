@@ -15,3 +15,10 @@ p {
   display: grid;
   grid-template-columns: auto auto;
 }
+
+.about {
+  background-color: #5e1914;
+}
+.about p {
+  color: white;
+}
