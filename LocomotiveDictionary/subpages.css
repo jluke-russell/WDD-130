@@ -11,11 +11,6 @@ p {
   width: 50%;
 }
 
-.sub-grid {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
 .aboutus {
   background-color: #5e1914;
 }
