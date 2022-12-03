@@ -1,7 +1,17 @@
 h2 {
   color: black;
+  margin-top: 5%;
 }
 
 p {
   color: black;
+}
+
+.image {
+  width: 50%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
 }
