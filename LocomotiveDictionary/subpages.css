@@ -16,9 +16,10 @@ p {
   grid-template-columns: auto auto;
 }
 
-.about {
+.aboutus {
   background-color: #5e1914;
 }
-.about p {
+
+footer h2 {
   color: white;
 }
