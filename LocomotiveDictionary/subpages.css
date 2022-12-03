@@ -11,7 +11,7 @@ p {
   width: 50%;
 }
 
-.grid {
+.sub-grid {
   display: grid;
   grid-template-columns: auto auto;
 }
