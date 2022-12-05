@@ -49,15 +49,6 @@ nav a {
   padding: 35px;
 }
 
-footer {
-  background-color: #6f7364;
-  padding: 25px 50px;
-  margin-top: 200px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .logo {
   width: 70%;
   grid-column: 1;
