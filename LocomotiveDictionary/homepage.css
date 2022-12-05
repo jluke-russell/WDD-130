@@ -57,7 +57,7 @@ nav a {
 
 footer p a:hover {
   text-decoration: underline;
-  font-size: 1em;
+  font-size: 1.2em;
   padding-top: 15px;
   padding: 25px 50px;
   color: black;
@@ -71,6 +71,9 @@ footer {
   justify-content: space-around;
   align-items: center;
   color: black;
+}
+
+.social {
 }
 
 main {
