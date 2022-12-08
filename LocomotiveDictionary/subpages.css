@@ -1,5 +1,6 @@
 h1 {
   color: white;
+  padding-top: 15px;
 }
 
 h2 {
@@ -17,7 +18,9 @@ p {
 
 .aboutus {
   background-color: #5e1914;
-  margin-bottom: 15px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .aboutus p {
@@ -36,4 +39,8 @@ p {
 
 footer p {
   color: white;
+}
+
+footer {
+  margin-top: 40px;
 }
